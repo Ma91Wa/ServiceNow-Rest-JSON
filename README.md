@@ -21,3 +21,6 @@ Where "REST MESSAGE NAME" is what you defined in https://instance.service-now.co
 The "HTTP-Method" you define in your Rest Message
 
 and the "target-table" where you like to store your data.
+
+# More information
+https://medium.com/@max_30877/servicenow-load-json-response-from-rest-api-into-tables-eb8f6e10847f
