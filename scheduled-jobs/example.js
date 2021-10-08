@@ -1,0 +1,1 @@
+loadRestInTable('REST MESSAGE NAME', 'HTTP-Method','target-table');
