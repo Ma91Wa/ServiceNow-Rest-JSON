@@ -14,13 +14,16 @@ Load JSON data from REST-APIs into ServiceNow tables.
 
 Create a new scheduled job (https://instance.service-now.com/nav_to.do?uri=%2Fsysauto_list.do)
 
-`loadRestInTable('REST MESSAGE NAME', 'HTTP-Method','target-table');`
+`loadRestInTable('REST MESSAGE NAME', 'HTTP-Method', 'target-table', 'outer_key');`
 
 Where "REST MESSAGE NAME" is what you defined in https://instance.service-now.com/nav_to.do?uri=%2Fsys_rest_message_list.do
 
 The "HTTP-Method" you define in your Rest Message
 
 and the "target-table" where you like to store your data.
+
+The "outer_key" you can see in the ([example.json](https://github.com/Ma91Wa/ServiceNow-Rest-JSON/blob/main/example.json)) file
+![outer_key](images/outer_key.png "outer_key")
 
 # More information
 https://medium.com/@max_30877/servicenow-load-json-response-from-rest-api-into-tables-eb8f6e10847f
